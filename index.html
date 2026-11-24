@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Recreación responsive de la portada de Vimeo para la IA2 de Diseño de Interfaces Web." name="description"/>
+<title>Vimeo - Sus vídeos, a su manera | IA2</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+</head>
+<body>
+
+<header class="cabecera" id="inicio">
+<div class="contenedor nav-principal">
+<a aria-label="Inicio Vimeo" class="logo" href="#inicio">vimeo</a>
+<button aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú" class="boton-menu" id="botonMenu">☰</button>
+<nav aria-label="Navegación principal" class="menu" id="menuPrincipal">
+<div class="nav-item"><button aria-expanded="false" class="nav-desplegable">Funciones <span>⌄</span></button><div class="submenu"><a href="#funciones">Alojamiento</a><a href="#funciones">Colaboración</a><a href="#inteligencia">Vimeo AI</a></div></div>
+<div class="nav-item"><button aria-expanded="false" class="nav-desplegable">Casos de uso <span>⌄</span></button><div class="submenu"><a href="#profesionales">Creativos</a><a href="#profesionales">Marketing</a><a href="#profesionales">Empresas</a></div></div>
+<div class="nav-item"><button aria-expanded="false" class="nav-desplegable">Enterprise <span>⌄</span></button><div class="submenu"><a href="#empresa">Seguridad</a><a href="#empresa">Soluciones</a></div></div>
+<div class="nav-item"><button aria-expanded="false" class="nav-desplegable">Conocer <span>⌄</span></button><div class="submenu"><a href="#comunidad">Comunidad</a><a href="#opiniones">Opiniones</a></div></div>
+<a href="#planes">Precio</a><a href="#novedades">What's new</a>
+</nav>
+<div class="acciones-header"><a class="ventas" href="#contacto">Comunicarse con Ventas</a><a class="boton boton-azul boton-pequeno" href="#planes">Unirse <span>➜</span></a><a aria-label="Subir vídeos" class="icono-nav" href="#funciones">☁</a><a aria-label="Ver vídeos" class="icono-nav" href="#comunidad">▣</a><a aria-label="Perfil" class="icono-nav" href="#contacto">♙</a></div>
+</div>
+</header>
+
+<main>
+
+<section class="hero contenedor">
+
+<div class="fondo-hero imagen-pendiente" style="--imagen: url('img/portada.jpg')">
+<video class="video-fondo" autoplay muted loop playsinline>
+  <source src="videos/videoprincipio.mp4" type="video/mp4">
+</video>
+
+<div class="hero-contenido">
+<p class="etiqueta">SU PLATAFORMA DE VIDEO COMPLETA</p>
+<h1>Sus videos,<br/>a su manera</h1>
+<p>La plataforma sin anuncios de Vimeo le ofrece todo lo que necesita<br class="solo-escritorio"/> para alojar, gestionar y compartir videos de alta calidad.</p>
+<div class="botones-hero"><a class="boton boton-azul" href="#planes">Ver los planes <span>➜</span></a><a class="boton boton-transparente" href="#planes">Probar gratis <span>➜</span></a></div>
+</div>
+<button class="boton-video" data-titulo="Descubra Vimeo" data-video="videos/video-portada.mp4"><span class="play">▶</span><span>Descubra por qué a millones de personas les encanta Vimeo</span></button>
+</div>
+</section>
+
+<section class="confianza seccion" id="confianza">
+<div class="contenedor centro"><h2 class="subtitulo-confianza">Con la confianza de más de 287 millones de<br class="solo-escritorio"/> creativos, profesionales del marketing y empresas</h2></div>
+
+<div class="ventana-marcas" aria-label="Marcas que confían en Vimeo">
+  <div class="pista-marcas">
+<div class="grupo-marcas">
+  
+  <span class="marca"><img src="img/marcas/wb.png" alt="WB"></span>
+
+  <span class="marca"><img src="img/marcas/dropout.png" alt=":DROPOUT"></span>
+  
+  <span class="marca"><img src="img/marcas/even-odd.png" alt="Even Odd"></span>
+  
+  <span class="marca"><img src="img/marcas/seismic.png" alt="Seismic"></span>
+  
+  <span class="marca"><img src="img/marcas/coca-cola.png" alt="Coca-Cola"></span>
+
+  <span class="marca"><img src="img/marcas/sundance.png" alt="sundance"></span>
+  
+  <span class="marca"><img src="img/marcas/martha-stewart.png" alt="martha stewart"></span>
+
+  <span class="marca"><img src="img/marcas/sxsw.png" alt="SXSW"></span>
+  
+  <span class="marca"><img src="img/marcas/nike.png" alt="NIKE"></span>
+  
+  <span class="marca"><img src="img/marcas/american-airlines.png" alt="American Airlines"></span>
+</div><div class="grupo-marcas" aria-hidden="true">
+  
+  <span class="marca"><img src="img/marcas/wb.png" alt="WB"></span>
+
+  <span class="marca"><img src="img/marcas/dropout.png" alt=":DROPOUT"></span>
+
+  <span class="marca"><img src="img/marcas/even-odd.png" alt="Even Odd"></span>
+
+  <span class="marca"><img src="img/marcas/seismic.png" alt="Seismic"></span>
+  
+  <span class="marca"><img src="img/marcas/coca-cola.png" alt="Coca-Cola"></span>
+  
+  <span class="marca"><img src="img/marcas/sundance.png" alt="sundance"></span>
+  
+  <span class="marca"><img src="img/marcas/martha-stewart.png" alt="martha stewart"></span>
+  
+  <span class="marca"><img src="img/marcas/sxsw.png" alt="SXSW"></span>
+  
+  <span class="marca"><img src="img/marcas/nike.png" alt="NIKE"></span>
+  
+  <span class="marca"><img src="img/marcas/american-airlines.png" alt="American Airlines"></span>
+</div>  </div>
+</div>
+<div class="intro-empresa contenedor centro"><h2>Diseñado para su forma de trabajar</h2><p>Desde SSO y controles de privacidad hasta transmisión en vivo, funciones avanzadas de IA y mucho más: Vimeo Enterprise se puede personalizar para satisfacer las necesidades de su empresa.</p><a class="boton boton-azul" href="#contacto">Solicitar una demostración <span>➜</span></a></div>
+</section>
+
+<section class="oscuro seccion funciones" id="funciones"><div class="contenedor">
+<h2 class="titulo-seccion centro">La plataforma que impulsa su estrategia de video</h2>
+<div class="rejilla-funciones">
+<article class="tarjeta-funcion">
+
+<div class="imagen-funcion imagen-pendiente" style="--imagen:url('primera.png')"><span class="aviso-imagen">FOTO 1: alojamiento</span></div><h3>Alojamiento en alta calidad y sin anuncios</h3><p>Asegúrese de que sus videos se reproduzcan con la máxima resolución y siempre sin anuncios. Sin distracciones de la competencia ni sugerencias aleatorias.</p><a class="enlace-tarjeta" href="https://vimeo.com/features/video-hosting">Más información sobre el alojamiento de videos <span>➜</span></a></article>
+<article class="tarjeta-funcion">
+
+<div class="imagen-funcion imagen-pendiente" style="--imagen:url('segunda.png')"><span class="aviso-imagen">FOTO 2: colaboración</span></div><h3>Colabore con cualquier persona</h3><p>Comparta cortes para su revisión, sea preciso con comentarios con códigos de tiempo y gestione el historial de versiones en una videoteca organizada.</p><a class="enlace-tarjeta" href="https://vimeo.com/features/video-collaboration">Más información sobre la colaboración en video <span>➜</span></a></article>
+<article class="tarjeta-funcion">
+
+<div class="imagen-funcion imagen-pendiente" style="--imagen:url('tercera.png')"><span class="aviso-imagen">FOTO 3: reproductor</span></div><h3>Inserte el reproductor en cualquier página</h3><p>Dirija el tráfico a su sitio web con el reproductor personalizable e insertable de Vimeo. Comparta en las redes sociales en cuestión de segundos.</p><a class="enlace-tarjeta" href="https://vimeo.com/features/video-player">Más información sobre el reproductor de video <span>➜</span></a></article>
+<article class="tarjeta-funcion">
+
+<div class="imagen-funcion imagen-pendiente" style="--imagen:url('cuarta.png')"><span class="aviso-imagen">FOTO 4: seguridad</span></div><h3>Mantenga sus videos seguros</h3><p>Mantenga su contenido seguro con gestión de acceso detallada y configuración de privacidad avanzada, como la protección por contraseña.</p><a class="enlace-tarjeta" href="https://vimeo.com/features/video-privacy">Más información sobre la seguridad de los videos <span>➜</span></a></article>
+<article class="tarjeta-funcion">
+
+<div class="imagen-funcion imagen-pendiente" style="--imagen:url('quinta.png')"><span class="aviso-imagen">FOTO 5: monetización</span></div><h3>Venda su contenido</h3><p>Monetice contenidos on-demand e incluso cree una plataforma de suscripción con herramientas sencillas adaptables a su modelo de negocio.</p><a class="enlace-tarjeta" href="https://vimeo.com/ott">Más información sobre la monetización de videos <span>➜</span></a></article>
+<article class="tarjeta-funcion">
+
+<div class="imagen-funcion imagen-pendiente" style="--imagen:url('sexta.png')"><span class="aviso-imagen">FOTO 6: directo</span></div><h3>Transmita en vivo con confianza</h3><p>Organice eventos virtuales, seminarios web, transmisiones en vivo y mucho más con el conjunto de herramientas de transmisión en vivo fáciles de usar de Vimeo.</p><a class="enlace-tarjeta" href="https://vimeo.com/features/livestreaming">Más información sobre la transmisión en vivo <span>➜</span></a></article>
+</div>
+</div></section>
+
+<section class="seccion profesionales" id="profesionales"><div class="contenedor dos-columnas">
+
+
+<div class="foto-profesional imagen-pendiente" style="--imagen:url('cole.png')"><span class="aviso-imagen">FOTO 7: persona / entrevista</span><button class="recuadro-video" data-titulo="Cole Webley" data-video="videos/video-profesional.mp4"><span>Cole Webley <small>Cineasta seleccionado por el personal</small></span><span class="play">▶</span></button></div>
+<div class="lista-publicos"><h2>Una solución de video perfecta para todos</h2><p>Tanto si es un profesional experimentado como si acaba de empezar, Vimeo le ayuda a compartir sus vídeos.</p>
+<a href="#contacto"><strong>♧   Profesionales de los videos　➜</strong><span>Presente trabajos, colabore con clientes y conéctese con una comunidad apasionada de cineastas y creativos.</span></a>
+<a href="#contacto"><strong>⌁   Equipos de marketing　➜</strong><span>Eleve su marca con videos de alta calidad y amplíe su alcance con precisión y control.</span></a>
+<a href="#contacto"><strong>▣   Equipos de comunicación　➜</strong><span>Centralice la comunicación y maximice la interacción.</span></a>
+<a href="#contacto"><strong>▤   Líderes de aprendizaje y desarrollo　➜</strong><span>Escale la capacitación con videos interactivos impulsados por IA.</span></a>
+<a href="#contacto"><strong>♧   Empresas de contenido　➜</strong><span>Monetice sus videos y gestione su audiencia.</span></a>
+<a href="#contacto"><strong>▥   Organizaciones empresariales　➜</strong><span>Agilice los flujos de trabajo de video en toda su empresa.</span></a>
+</div>
+</div></section>
+
+<section class="seccion opiniones" id="opiniones"><div class="contenedor centro"><h2>Lo que dicen los clientes</h2></div>
+
+<div class="ventana-carrusel"><div class="pista-carrusel" id="pistaOpiniones"><div class="grupo-opiniones"><article class="opinion"><span class="comillas">“</span><p>El estándar creativo para el alojamiento de videos. No hay otra alternativa y tampoco hace falta.</p><span class="estrellas">★★★★★</span><small>Meg Volk · Productor sénior</small></article><article class="opinion"><span class="comillas">“</span><p>¡Nos ha salvado tantas veces en los últimos años!</p><span class="estrellas">★★★★★</span><small>Eric Pokorny</small></article><article class="opinion"><span class="comillas">“</span><p>Una sola herramienta para compartir contenido que da vida a nuestro trabajo.</p><span class="estrellas">★★★★★</span><small>Cliente de Vimeo</small></article><article class="opinion"><span class="comillas">“</span><p>La transmisión de eventos funciona con una calidad excelente.</p><span class="estrellas">★★★★★</span><small>Equipo creativo</small></article></div><div aria-hidden="true" class="grupo-opiniones"><article class="opinion"><span class="comillas">“</span><p>El estándar creativo para el alojamiento de videos. No hay otra alternativa y tampoco hace falta.</p><span class="estrellas">★★★★★</span><small>Meg Volk · Productor sénior</small></article><article class="opinion"><span class="comillas">“</span><p>¡Nos ha salvado tantas veces en los últimos años!</p><span class="estrellas">★★★★★</span><small>Eric Pokorny</small></article><article class="opinion"><span class="comillas">“</span><p>Una sola herramienta para compartir contenido que da vida a nuestro trabajo.</p><span class="estrellas">★★★★★</span><small>Cliente de Vimeo</small></article><article class="opinion"><span class="comillas">“</span><p>La transmisión de eventos funciona con una calidad excelente.</p><span class="estrellas">★★★★★</span><small>Equipo creativo</small></article></div></div></div>
+</section>
+
+<section class="seccion oscuro inteligencia" id="inteligencia"><div class="contenedor dos-columnas ia-columnas">
+<div><h2>✦ IA que lleva sus videos al siguiente nivel</h2><div class="acordeon">
+<div class="item-acordeon"><button aria-expanded="false" class="boton-acordeon">Traduzca sus videos de forma rápida y sencilla <span>+</span></button><div class="contenido-acordeon"><p>Ahorre tiempo y dinero con la traducción de videos impulsada por IA.</p><a class="boton boton-claro" href="https://vimeo.com/features/ai">Traducir con IA　➜</a></div></div>
+<div class="item-acordeon abierto"><button aria-expanded="true" class="boton-acordeon">Deje que Vimeo AI responda a las preguntas de sus espectadores <span>−</span></button><div class="contenido-acordeon"><p>Dentro del reproductor de video, los espectadores pueden hacer preguntas y obtener respuestas que enlazan con el momento específico del video para brindar el contexto.</p><a class="boton boton-claro" href="https://vimeo.com/features/ai">Encontrar respuestas con IA　➜</a></div></div>
+<div class="item-acordeon"><button aria-expanded="false" class="boton-acordeon">Edite videos con la misma facilidad con la que edita un documento <span>+</span></button><div class="contenido-acordeon"><p>Edite la transcripción de su video para recortar y reorganizar el material.</p><a class="boton boton-claro" href="https://vimeo.com/features/ai">Editar videos por texto　➜</a></div></div>
+<div class="item-acordeon"><button aria-expanded="false" class="boton-acordeon">Optimice automáticamente sus videos para SEO <span>+</span></button><div class="contenido-acordeon"><p>Genere títulos, descripciones y capítulos optimizados automáticamente.</p><a class="boton boton-claro" href="https://vimeo.com/features/ai">Ver más　➜</a></div></div>
+</div></div>
+
+<div class="imagen-ia imagen-pendiente" style="--imagen:url('IA.png')"><span class="aviso-imagen">FOTO 8: vídeo / IA</span></div>
+</div></section>
+
+<section class="seccion seguridad" id="empresa"><div class="contenedor dos-columnas"><div><h2>Seguridad y escalabilidad de Enterprise</h2><p>Vimeo conserva la alta calidad en la que los profesionales del video han confiado durante décadas, mientras ofrece la escalabilidad, seguridad e información que las principales empresas demandan.</p><a class="boton boton-negro" href="https://vimeo.com/enterprise">Obtener más información<br/> sobre Vimeo Enterprise　➜</a></div><div class="sellos"><div>♙<strong>SOC 2 Tipo II</strong></div><div>✳<strong>En alineación<br/> con el RGPD</strong></div><div>⚕<strong>Solución HIPAA</strong></div><p>Tranquilidad incluida</p><div>◎<strong>Certificado<br/> ISO 27001 y 27701</strong></div><div>▣<strong>Cifrado AES-256<br/> y HTTPS/TLS</strong></div><div>⚿<strong>Integración de inicio<br/> de sesión único (SSO)</strong></div></div></div></section>
+
+<section class="contenedor video-grande">
+
+<div class="fondo-video imagen-pendiente" style="--imagen:url('lampara.png')"><span class="aviso-imagen">FOTO 9: vídeo de empresa</span><button class="boton-video" data-titulo="Historias de empresas" data-video="videos/video-empresa.mp4"><span class="play">▶</span><span>Vea cómo crecen las empresas con Vimeo</span></button></div></section>
+
+<section class="seccion oscuro comunidad" id="comunidad"><div class="contenedor dos-columnas">
+
+<div class="foto-comunidad imagen-pendiente" style="--imagen:url('seniora.png')"><span class="aviso-imagen">FOTO 10: Staff Picks</span><button class="recuadro-video" data-titulo="Staff Picks" data-video="videos/video-comunidad.mp4"><span class="play">▶</span><span>Infórmese sobre los Staff Picks</span></button></div><div><h2>Únase a una comunidad de los mejores narradores del mundo</h2><p>Durante más de 20 años, visionarios aclamados y talentos desconocidos han subido los mejores videos de Internet aquí mismo. Descubra cortometrajes, cineastas y nuestra selección Staff Picks.</p><a class="enlace-linea" href="https://vimeo.com/channels/staffpicks">Explore la colección　↗</a></div></div></section>
+
+<section class="seccion novedades" id="novedades"><div class="contenedor"><h2 class="titulo-seccion centro">Descubra lo último de Vimeo</h2><div class="rejilla-novedades"><article class="novedad"><span class="nuevo">Nuevo</span><p>Explore nuestros últimos lanzamientos y mejoras de productos.</p><a class="boton boton-negro" href="https://vimeo.com/blog">Ver más　➜</a>
+
+<div class="imagen-novedad imagen-pendiente" style="--imagen:url('ruta1.png')"><span class="aviso-imagen">FOTO 11: lanzamiento</span></div></article><article class="novedad"><span class="nuevo">Nuevo</span><p>Cree y monetice su propio servicio de transmisión de video con Vimeo OTT.</p><a class="boton boton-negro" href="https://vimeo.com/ott">Ver más　➜</a>
+
+<div class="imagen-novedad imagen-pendiente" style="--imagen:url('ruta2.png')"><span class="aviso-imagen">FOTO 12: streaming</span></div></article></div></div></section>
+</main>
+
+<footer class="pie seccion" id="contacto"><div class="contenedor"><div class="pie-superior"><div id="planes"><h2>Probar gratis</h2><a href="https://vimeo.com/upgrade">Precio</a><a href="https://vimeo.com/enterprise">Comunicarse con Ventas</a><a href="#funciones">Ver demostraciones</a><a class="boton boton-azul" href="https://vimeo.com/join">Unirse　➜</a></div><div><h3>Atención al cliente 24x7</h3><p>Nuestro equipo de asistencia al cliente está disponible las 24 horas, los 7 días de la semana. Los miembros de Enterprise también tienen acceso a administradores de cuentas especializados.</p><a class="boton boton-gris" href="https://help.vimeo.com/">Contactar al equipo de asistencia　➜</a></div></div>
+<div class="pie-enlaces"><div><h3>Producto</h3><div class="pie-subcolumnas"><div><h4>Productos</h4><a href="#funciones">Reproductor de video</a><a href="#funciones">Alojamiento de videos</a><a href="#funciones">Editor de videos</a><a href="#funciones">Realizador de videos</a><a href="#funciones">Grabar</a><a href="#funciones">Transmisión en vivo</a><a href="#funciones">Seminarios web</a><a href="#funciones">Videoteca</a><a href="#inteligencia">Vimeo AI</a></div><div><h4>Funciones</h4><a href="#funciones">Aplicaciones móviles</a><a href="#funciones">Teleprompter</a><a href="#funciones">Transcripción de videos</a><a href="#funciones">Leyendas automáticas</a><a href="#empresa">Seguridad</a><a href="#inteligencia">Traducción de IA</a></div><div><h4>Vimeo para</h4><a href="#profesionales">Empresas</a><a href="#profesionales">Pequeñas empresas</a><a href="#profesionales">Profesionales creativos</a><a href="#profesionales">Educadores</a><a href="#profesionales">Marketing</a></div><div><h4>Soluciones</h4><a href="#empresa">Vimeo Central</a><a href="#empresa">Vimeo Marketing</a><a href="#empresa">Vimeo OTT</a></div></div></div><div><h3>Recursos</h3><a href="https://help.vimeo.com/">Centro de ayuda</a><a href="#contacto">Asistencia</a><a href="#opiniones">Historias de los clientes</a><a href="#novedades">Eventos</a><a href="https://vimeo.com/blog">Blog</a></div><div><h3>Empresa</h3><a href="#inicio">Acerca de Vimeo</a><a href="#contacto">Carreras</a><a href="#contacto">Cultura</a><a href="#novedades">Noticias sobre productos</a></div></div>
+<div class="pie-final"><div><div class="redes"><a aria-label="Instagram" href="https://instagram.com/vimeo">◎</a><a aria-label="X" href="https://x.com/vimeo">𝕏</a><a aria-label="Facebook" href="https://facebook.com/vimeo">f</a><a aria-label="LinkedIn" href="https://linkedin.com/company/vimeo">in</a></div><label for="idioma">Idioma: </label><select id="idioma"><option>Español</option></select></div><div><p>© 2026 Vimeo.com, Inc. Todos los derechos reservados.</p><p><a href="https://vimeo.com/terms">Condiciones</a> | <a href="https://vimeo.com/privacy">Privacidad</a> | <a href="https://vimeo.com/cookie_policy">Cookies</a> | <a href="https://vimeo.com/accessibility">Accesibilidad</a></p></div></div>
+</div></footer>
+
+<div aria-label="Reproductor de vídeo" aria-modal="true" class="modal-video" hidden="" id="modalVideo" role="dialog"><div class="modal-contenido"><button aria-label="Cerrar vídeo" id="cerrarVideo">✕</button><h3 id="tituloVideo">Vídeo</h3><video controls="" id="reproductor" playsinline="">Tu navegador no puede reproducir este vídeo.</video><p>Coloca el archivo .mp4 correspondiente en la carpeta videos.</p></div></div>
+</body>
+</html>
